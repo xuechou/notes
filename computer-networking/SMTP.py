@@ -1,4 +1,6 @@
 # SMTP.py
+# TODO: not work
+
 from socket import *
 import base64
 

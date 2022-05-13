@@ -55,7 +55,7 @@ while True:
 
                 # Create a temporary file on this socket and ask port 80 for the file requested by client
                 fileobj = c.makefile('r', 0)
-                fileobj.write("GET"+"http://"+filename+"HTTP/1.0\n\n")
+                fileobj.write("GET"+"http://"+filename+"HTTP/1.0\n\n")  #TODO:
                 fileobj.close()
                 # Read the response into buffer
                 recvMessage = c.recv(1024).decode() #TODO: enough??

@@ -1,12 +1,10 @@
 # python script index
 
-## newwork top-to-down approach
+## computer network : a top-to-down approach
 
 ## network hacks
 
-### reference
-
-Understanding Network Hacks_ Attack and Defense with Python 3
+ref : Understanding Network Hacks_ Attack and Defense with Python 3
 
 ### python scripts 
 

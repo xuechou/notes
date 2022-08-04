@@ -44,7 +44,7 @@ for (send, recv) in answerd:
         else:
             res[send.dport] = "Got ICMP with type " + \
                 str(type) + " and code " + str(code)
-    else:  # TCP messages
+    else:  # TODO:TCP messages
         flags = recv.getlayer("TCP").sprintf("%flags%")
 
         # Got SYN/ACK
